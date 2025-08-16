@@ -1,2 +1,3 @@
 @echo Installing Dependiencies...
 pip install requests
+pause
