@@ -7,3 +7,5 @@ If I ever get informed that this Repository has been used for malicous purposes 
 Thank you for using PyWare ^w^
 
 --Pyware--
+
+(INSTALL DEPENDENCIES WILL BE REMOVED AND ADDED INTO MAIN SCRIPT LATER ON)
