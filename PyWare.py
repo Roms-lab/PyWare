@@ -15,6 +15,7 @@ if Run.upper() == "Y":
         ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
         while True:
           screenshot = pyautogui.screenshot()
+          screenshot.save("Screenshot", Screenshot_Num)
           time.sleep(5)
           Screenshot_Num = Screenshot_Num + 1
     elif Confirm.upper() == "N":
